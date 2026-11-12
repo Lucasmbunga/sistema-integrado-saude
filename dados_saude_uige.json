@@ -1,0 +1,58 @@
+{
+    "unidades": {
+        "HGU01": {
+            "id_unidade": "HGU01",
+            "nome": "Hospital Geral do Uíge",
+            "municipio": "Uíge",
+            "tipo": "Hospital"
+        },
+        "CS02": {
+            "id_unidade": "CS02",
+            "nome": "Centro de Saúde do Mangue",
+            "municipio": "Uíge",
+            "tipo": "Centro de Saúde"
+        },
+        "PMP01": {
+            "id_unidade": "PMP01",
+            "nome": "Posto Médico Pedreira",
+            "municipio": "Uíge",
+            "tipo": "Posto Médico"
+        }
+    },
+    "pacientes": {
+        "P001": {
+            "id_paciente": "P001",
+            "nome": "Mário Kanjila",
+            "data_nascimento": "12/05/1998",
+            "genero": "Masculino",
+            "nif": "004589231LA042"
+        },
+        "P003": {
+            "id_paciente": "P003",
+            "nome": "Lucas Pascoal",
+            "data_nascimento": "10/11/2001",
+            "genero": "Masculino",
+            "nif": "N/A"
+        }
+    },
+    "registos": [
+        {
+            "id_registo": "R001",
+            "id_paciente": "P001",
+            "id_unidade": "HGU01",
+            "medico": "Dr. Nsaku",
+            "data": "10/11/2026",
+            "diagnostico": "Malária Simples",
+            "tratamento": "Artemether/Lumefantrine"
+        },
+        {
+            "id_registo": "R002",
+            "id_paciente": "P003",
+            "id_unidade": "PMP01",
+            "medico": "Medico Responsavel",
+            "data": "11/12/2026",
+            "diagnostico": "Diagnostico Clinico",
+            "tratamento": "Tratamento"
+        }
+    ]
+}
